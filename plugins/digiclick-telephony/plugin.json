@@ -1,0 +1,9 @@
+{
+  "name": "digiclick-telephony",
+  "version": "0.2.0",
+  "description": "A phone number and a voice for your agent: answer and place calls, text, voicemail, transfer, hold - over MCP.",
+  "author": { "name": "DigiClick Corp", "url": "https://app.digiclick.com/mcp" },
+  "homepage": "https://app.digiclick.com/mcp",
+  "keywords": ["phone", "telephony", "voice", "sms", "calls", "voicemail", "mcp"],
+  "mcpServers": "./.mcp.json"
+}

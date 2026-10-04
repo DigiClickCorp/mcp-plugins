@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "telephony": {
+      "type": "http",
+      "url": "https://app.digiclick.com/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${DIGICLICK_API_KEY}"
+      }
+    }
+  }
+}
