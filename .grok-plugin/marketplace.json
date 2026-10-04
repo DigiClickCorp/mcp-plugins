@@ -1,17 +1,33 @@
 {
   "name": "digiclick",
   "description": "DigiClick Telephony: a phone number and a voice for your agent. Calls, texts, voicemail, transfer, numbers - over MCP.",
-  "owner": { "name": "DigiClick Corp", "url": "https://app.digiclick.com/mcp" },
+  "owner": {
+    "name": "DigiClick Corp",
+    "url": "https://app.digiclick.com/mcp"
+  },
   "plugins": [
     {
       "name": "digiclick-telephony",
-      "source": "./plugins/digiclick-telephony",
+      "source": {
+        "type": "local",
+        "path": "./"
+      },
       "description": "Give your agent a real phone number: answer and place calls, send and receive texts, take voicemail, transfer, hold. Standard and premium voices, or your own cloned voice.",
       "category": "communication",
       "homepage": "https://app.digiclick.com/mcp",
-      "keywords": ["phone", "telephony", "voice", "sms", "calls", "voicemail", "mcp"],
+      "keywords": [
+        "phone",
+        "telephony",
+        "voice",
+        "sms",
+        "calls",
+        "voicemail",
+        "mcp"
+      ],
       "version": "0.2.0",
-      "author": { "name": "DigiClick Corp" }
+      "author": {
+        "name": "DigiClick Corp"
+      }
     }
   ]
 }

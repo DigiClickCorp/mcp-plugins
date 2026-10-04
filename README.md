@@ -18,8 +18,8 @@ https://github.com/DigiClickCorp/mcp-plugins
 ```
 
 Install `digiclick-telephony` and set `DIGICLICK_API_KEY` to a key from the
-console. The plugin ships the MCP server config and a skill that explains the
-call loop to the agent.
+console. This repository is the plugin itself (plugin.json, .mcp.json, skills/) and
+also a one-plugin marketplace, so it can be added either way.
 
 ## Any MCP client
 
